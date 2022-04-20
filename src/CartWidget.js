@@ -1,4 +1,5 @@
 import { useState , useEffect } from "react"
+import imagencarrito from "./imagenes/imagencarrito.png"
 
 
 const Presentacional = (props) => {
@@ -17,7 +18,8 @@ const Presentacional = (props) => {
   
   return (
     <div>
-      <p>Contador Actual : {contador}</p>
+      <img src={imagencarrito}/> {contador}
+      <p></p>
       <button onClick={aumentarContador}>Aumentar</button>
       <button onClick={bajarContador}>Bajar</button>
     </div>
