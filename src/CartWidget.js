@@ -18,8 +18,7 @@ const Presentacional = (props) => {
   
   return (
     <div>
-      <img src={imagencarrito}/> {contador}
-      <p></p>
+    {contador}
       <button onClick={aumentarContador}>Aumentar</button>
       <button onClick={bajarContador}>Bajar</button>
     </div>

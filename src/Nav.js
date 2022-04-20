@@ -1,3 +1,6 @@
+import imagencarrito from "./imagenes/imagencarrito.png"
+import contador from "./CartWidget"
+
 
 const Nav = (props) => {
     //console.table(props.link)
@@ -18,6 +21,7 @@ const Nav = (props) => {
         <a href="#" className="nav__link">Inicio</a>
         <a href="#" className="nav__link">Carrito de compras</a>
         <a href="#" className="nav__link">Servicios</a>
+        <img src={imagencarrito}/> {contador}
       </nav>
     )
   }
