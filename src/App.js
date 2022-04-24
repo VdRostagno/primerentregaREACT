@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <Header/>
-      <Main nombre="Virginia"/>
+      <Main />
       <Footer />
     </>
   )

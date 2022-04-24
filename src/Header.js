@@ -1,10 +1,11 @@
-import Nav from "./Nav"
+import NavBar from "./NavBar"
+
 
 const Header = () => {
   return (
     <header className="header">
       <h1 className="header__titlo">E-Commerce</h1>
-      <Nav nombre="Virginia" apellido="Rostagno" footer={false}/>
+      <NavBar/>
     </header>
   )
 }

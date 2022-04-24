@@ -1,4 +1,4 @@
-import Container from "./Container"
+import ItemListContainer from "./ItemListContainer";
 
 const Main = ({ nombre }) => {
 
@@ -7,7 +7,7 @@ const Main = ({ nombre }) => {
       <h1>Hola, bienvenida {nombre}</h1>
       <span className="material-icons">
       </span>
-      <Container />
+      <ItemListContainer />
     </main>
   )
 }
