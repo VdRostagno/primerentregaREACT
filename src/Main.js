@@ -1,13 +1,13 @@
 import ItemListContainer from "./ItemListContainer";
 
-const Main = ({ nombre }) => {
+const Main = ({}) => {
 
   return (
     <main>
-      <h1>Hola, bienvenida {nombre}</h1>
+      <h1>Hola, Bienvenido</h1>
       <span className="material-icons">
       </span>
-      <ItemListContainer />
+      <ItemListContainer greeting={"Hola como estas?"}/>
     </main>
   )
 }

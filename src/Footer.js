@@ -1,4 +1,4 @@
-import Nav from './Nav'
+import NavBar from './NavBar'
 
 const Footer = () => {
 
@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="footer">
       <p>Copyright &copy; - 2022</p>
       <p>Todos los derechos reservados</p>
-      <Nav
+      <NavBar
         nombre="Virginia"
         apellido="Rostagno" 
         edad={edad} 

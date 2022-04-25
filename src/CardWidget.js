@@ -1,11 +1,10 @@
+import imagencarrito from "./imagenes/imagencarrito.png"
 
-import contador from ItemCount;
 
-const Cardwidget = () => {
- <Badge badgeContent={contador} color="primary">
-  <MailIcon color="action" />
-</Badge>
+const CardWidget = () => {
+<img src={imagencarrito}></img>
+
 }
 
-export default Cardwidget;
+export default CardWidget;
 

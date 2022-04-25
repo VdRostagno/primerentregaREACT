@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Cardwidget from Cardwidget; 
+import CardWidget from './CardWidget'
 
 const NavBar = (props) => {
     if(props.footer){
@@ -13,7 +13,7 @@ const NavBar = (props) => {
   }else{
     return(
       <nav className="nav">
-        <Cardwidget/>
+        <CardWidget/>
         <Link href="#" className="nav__link">Inicio</Link>
         <Link href="#" className="nav__link">Carrito de compras</Link>
         <Link href="#" className="nav__link">Servicios</Link>
