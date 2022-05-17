@@ -11,7 +11,7 @@ function Items({id,nombre,imagen}){
        
                     <Col >
                         <Card >
-                            <Card.Img className="imagen-car" variant="top" src={imagen} />
+                            <Card.Img className="imagen-producto" variant="top" src={imagen} />
                             <Card.Body className="cuerpo-carta">
                             <Card.Title className="nombre-productos">{nombre}</Card.Title>
 
