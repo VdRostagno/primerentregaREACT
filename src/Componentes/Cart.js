@@ -17,7 +17,7 @@ export  default function Cart() {
                 <tr>
                 
                 <th>Cantidad</th>
-                <th>Nombre del auto</th>
+                <th>Nombre del producto</th>
                 <th>Precio</th>
                 <th>Total</th>
                 </tr>
