@@ -52,9 +52,9 @@ const ItemCount=({inicial,stock,prod,agregarCarrito}) => {
     return (
     <Container>
         <ButtonGroup className="mb-2">
-            <Button variant="outline-danger" className="aumentar" onClick={restar}  disabled={disabledMas}>   -  </Button>
+            <Button variant="outline-danger" className="aumentar" onClick={restar}  disabled={disabledMenos}>   -  </Button>
             <Button variant="outline-dark" className="contador" > {contador} </Button>
-            <Button variant="outline-success" className="restar"   onClick={aumentar}    disabled={disabledMenos}>  +   </Button>
+            <Button variant="outline-success" className="restar"   onClick={aumentar}    disabled={disabledMas}>  +   </Button>
         </ButtonGroup> 
         <br />
         <Button variant="outline-dark" className="boton-agregar" onClick={handleClick}> <Link to={""}>Agregar al Carrito </Link></Button>
