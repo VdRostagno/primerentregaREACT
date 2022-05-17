@@ -63,10 +63,10 @@ function ItemDetail ({producto})  {
                         </ButtonGroup>
                         }
 
-                         <h5 className="estilo"> #{producto.estilo} </h5>
+                        
                         <p className="stock">  Stock Disponible: {producto.stock}</p>
                         <Button variant="outline-dark" className="boton-volver" > <Link to={`/`}> Volver </Link></Button>
-                        {/* <Button variant="outline-dark" className="boton-agregar"> <Link to={" "}>Agregar al Carrito </Link></Button> */}
+                        { <Button variant="outline-dark" className="boton-agregar"> <Link to={" "}>Agregar al Carrito </Link></Button> }
                     </Card.Text>
 
                 </Card.Body>
