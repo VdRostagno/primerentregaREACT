@@ -1,28 +1,28 @@
 import React from "react"
+import {Link} from "react-router-dom";
+
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 
-
-function Items({id,nombre,imagen,stock,precio}){
+function Items({id,nombre,imagen}){
     return ( 
        
-                    <Col>
+                    <Col >
                         <Card >
-                            <Card className="id-productos">{id}</Card>
-                            <Card className="imagen-productos" variant="top" src={imagen} />
-                            <Card className="cuerpo">
-                            <Card className="nombre-productos">{nombre}</Card>
-                            <p> Stock Disponible: {stock}</p>
-                            <Card className="precio-productos">{precio}</Card>
-                            
-                             <Button variant="outline-dark" className="boton-detalle" >Ver detalles</Button>
-                            </Card>
+                            <Card.Img className="imagen-car" variant="top" src={imagen} />
+                            <Card.Body className="cuerpo-carta">
+                            <Card.Title className="nombre-productos">{nombre}</Card.Title>
+
+                            <Card.Text>
+                               
+                             </Card.Text>
+                             <Link to={`/detalles/${id}`} className="boton-detalle"><Button variant="outline-dark" className="boton-detalle" > Ver Detalles </Button></Link>
+                            </Card.Body>
                         </Card>
                     </Col>
                 
     )
 }
 export default Items
-
